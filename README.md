@@ -8,5 +8,7 @@ HTTP/2 Demo
 git clone git@github.com:vigneshshanmugam/h2-demo.git
 npm install
 npm run start
+
+go to https://localhost:3000
 ```
 
