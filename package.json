@@ -1,0 +1,27 @@
+{
+  "name": "h2-demo",
+  "version": "1.0.0",
+  "description": "Simple HTTP/2 Demo",
+  "main": "http2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node http2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vigneshshanmugam/h2-demo.git"
+  },
+  "keywords": [
+    "HTTP/2 Demo"
+  ],
+  "author": "Vignesh Shanmugam <vignesh.shanmugam22@gmail.com> (https://vigneshh.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigneshshanmugam/h2-demo/issues"
+  },
+  "homepage": "https://github.com/vigneshshanmugam/h2-demo",
+  "dependencies": {
+    "fs": "0.0.2",
+    "http2": "^3.2.0"
+  }
+}
