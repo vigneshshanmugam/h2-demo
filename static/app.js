@@ -58,7 +58,7 @@
           }
           constructHTML(timings);
     }
-    setTimeout(function(){
-        collectMetrics();
-    },3000);
+    window.onload = setTimeout(function(){
+    	collectMetrics();
+    }, 0);
 })(window, window.document);
