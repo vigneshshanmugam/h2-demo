@@ -2,13 +2,10 @@
   "name": "h2-demo",
   "version": "1.0.0",
   "description": "Simple HTTP/2 Demo",
-  "main": "http2.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node http2.js"
-  },
-  "engines": {
-    "node": "0.12.x"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +21,9 @@
   },
   "homepage": "https://github.com/vigneshshanmugam/h2-demo",
   "dependencies": {
+    "express": "^4.13.3",
     "fs": "0.0.2",
+    "http": "0.0.0",
     "http2": "^3.2.0"
   }
 }
