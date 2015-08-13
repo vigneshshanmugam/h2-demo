@@ -1,7 +1,8 @@
 var express = require('express'),
 	app = express(),
 	http = require('http'),
-	fs = require('fs');
+	fs = require('fs'),
+	port = process.env.PORT || 3000;
 
 app.use('/static', express.static(__dirname + '/static'));
 
@@ -26,6 +27,6 @@ app.get('/*', function(req, res) {
 	res.end(fs.readFileSync('index.html'));
 });
 
-http.createServer(app).listen(8080, function(err) {
-	console.log('Express server running on port', 8080);
+http.createServer(app).listen(port, function(err) {
+	console.log('Express server running on port', port);
 });
